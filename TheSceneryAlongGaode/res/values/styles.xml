@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="sdlDialogStyle">@style/DialogStyleDark.Custom</item>
+    </style>
+    
+    
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+    </style>
+    
+    <style name="GPlusProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">12dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">0.7</item>
+        <item name="spb_interpolator">spb_interpolator_linear</item>
+        <item name="spb_colors">@array/gplus_colors</item>
+    </style>
+
+    <style name="GNowProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">8dp</item>
+        <item name="spb_sections_count">2</item>
+        <item name="spb_speed">1.7</item>
+        <item name="spb_progressiveStart_speed">2</item>
+        <item name="spb_progressiveStop_speed">3.4</item>
+        <item name="spb_interpolator">spb_interpolator_acceleratedecelerate</item>
+        <item name="spb_mirror_mode">true</item>
+        <item name="spb_reversed">true</item>
+        <item name="spb_colors">@array/gplus_colors</item>
+        <item name="spb_progressiveStart_activated">true</item>
+        <item name="spb_generate_background_with_colors">false</item>
+    </style>
+
+    <style name="PocketProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">4dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">1</item>
+        <item name="android:interpolator">@anim/pocket_interpolator</item>
+        <item name="spb_colors">@array/pocket_bar_colors</item>
+        <item name="spb_progressiveStart_activated">true</item>
+        <item name="spb_generate_background_with_colors">false</item>
+    </style>
+    
+    
+    
+    <style name="MListView">
+        <item name="android:cacheColorHint">@drawable/transparent</item>
+        <item name="android:divider">@color/list_gap_color</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:listSelector">@drawable/transparent</item>
+        <item name="android:background">@drawable/transparent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+    
+    <style name="GapLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/yellow6</item>
+    </style>
+    
+    
+    
+    <style name="Dialog_Fullscreen">   
+        <item name="android:windowBackground">@android:color/transparent</item>
+	    <item name="android:windowFullscreen">false</item>   
+	    <item name="android:windowNoTitle">true</item>   
+	</style>
+	
+    
+    <style name="DialogStyleDark.Custom" parent="@style/DialogStyleDark">
+	    <!-- anything can be left out: -->
+	    <item name="titleTextColor">@color/red6</item>
+	    <item name="titleSeparatorColor">@color/red6</item>
+	    <item name="buttonSeparatorColor">@color/green6</item>
+	</style>
+	
+    
+    <!-- 轨迹详情 -->
+    <style name="tv_track_detail_left">   
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+	    <item name="android:textSize">@dimen/ts_comm21</item>   
+	    <item name="android:textColor">@color/blue14</item>
+		<item name="android:paddingLeft">@dimen/padding_comm21</item>
+		<item name="android:paddingRight">@dimen/padding_comm21</item>
+		<item name="android:paddingTop">@dimen/padding_comm12</item>
+		<item name="android:paddingBottom">@dimen/padding_comm12</item>
+	</style>
+	
+    <style name="tv_track_detail_right">   
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+	    <item name="android:textSize">@dimen/ts_comm21</item>   
+	    <item name="android:textColor">@color/black</item> 
+	    <item name="android:paddingRight">@dimen/padding_comm21</item>
+		<item name="android:paddingTop">@dimen/padding_comm12</item>
+		<item name="android:paddingBottom">@dimen/padding_comm12</item> 
+	</style>
+	
+    <!-- 轨迹列表 -->
+    <style name="tv_track_item_left">   
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+	    <item name="android:textSize">@dimen/ts_comm21</item>   
+	    <item name="android:textColor">@color/blue14</item>
+	</style>
+	
+    <style name="tv_track_item_right">   
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+	    <item name="android:textSize">@dimen/ts_comm21</item>   
+	    <item name="android:textColor">@color/black</item> 
+	</style>
+
+</resources>

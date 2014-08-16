@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_comm22"
+    android:background="@drawable/bg_list_white_blue"
+     >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ts_comm22"
+        android:textColor="@color/yellow14"
+        android:text="TextView" />
+    
+    <TextView
+        android:id="@+id/tvRecording"
+        style="@style/tv_track_item_left"
+        android:layout_marginTop="@dimen/padding_comm12"
+        android:text="@string/strRecording" />
+
+    <LinearLayout 
+        android:id="@+id/lyLine1"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="@dimen/padding_comm12"
+        >
+        
+        <RelativeLayout 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	    	android:layout_height="wrap_content"
+	        >
+	        <TextView 
+	            android:id="@+id/tvTimeL"
+	            style="@style/tv_track_item_left"
+	    		android:text="@string/strTrackDetailMovingTime"
+	            />
+	        <TextView 
+	            android:id="@+id/tvTime"
+	            android:layout_toRightOf="@+id/tvTimeL"
+	            style="@style/tv_track_item_right"
+	    		android:text=""
+	            />
+	    </RelativeLayout>
+	    
+        <RelativeLayout 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	    	android:layout_height="wrap_content"
+	        >
+	        <TextView 
+	            android:id="@+id/tvDisL"
+	            style="@style/tv_track_item_left"
+	    		android:text="@string/strTrackDetailMovingDistance"
+	            />
+	        <TextView 
+	            android:id="@+id/tvDis"
+	            android:layout_toRightOf="@+id/tvDisL"
+	            style="@style/tv_track_item_right"
+	    		android:text=""
+	            />
+	    </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/lyLine2"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="@dimen/padding_comm12"
+        >
+        
+        <RelativeLayout 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	    	android:layout_height="wrap_content"
+	        >
+	        <TextView 
+	            android:id="@+id/tvSceneryNumL"
+	            style="@style/tv_track_item_left"
+	    		android:text="@string/strTrackDetailSceneryNum"
+	            />
+	        <TextView 
+	            android:id="@+id/tvSceneryNum"
+	            android:layout_toRightOf="@+id/tvSceneryNumL"
+	            style="@style/tv_track_item_right"
+	    		android:text=""
+	            />
+	    </RelativeLayout>
+	    
+        <RelativeLayout 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	    	android:layout_height="wrap_content"
+	        >
+	        <TextView 
+	            android:id="@+id/tvPointNumL"
+	            style="@style/tv_track_item_left"
+	    		android:text="@string/strTrackDetailPointNum"
+	            />
+	        <TextView 
+	            android:id="@+id/tvPointNum"
+	            android:layout_toRightOf="@+id/tvPointNumL"
+	            style="@style/tv_track_item_right"
+	    		android:text=""
+	            />
+	    </RelativeLayout>
+	    
+    </LinearLayout>
+
+</LinearLayout>

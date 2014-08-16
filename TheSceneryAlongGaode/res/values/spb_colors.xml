@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue1">#ffe2f4fb</color>
+    <color name="blue2">#ffc5eaf8</color>
+    <color name="blue3">#ffa8dff4</color>
+    <color name="blue4">#ff8ad5f0</color>
+    <color name="blue5">#ff6dcaec</color>
+    <color name="blue6">#ff50c0e9</color>
+    <color name="blue7">#ff33b5e5</color>
+    <color name="blue8">#ff2cb1e1</color>
+    <color name="blue9">#ff24adde</color>
+    <color name="blue10">#ff1da9da</color>
+    <color name="blue11">#ff16a5d7</color>
+    <color name="blue12">#ff0fa1d3</color>
+    <color name="blue13">#ff079dd0</color>
+    <color name="blue14">#ff0099cc</color>
+    
+    <color name="purple1">#fff5eafa</color>
+    <color name="purple2">#ffe5caf2</color>
+    <color name="purple3">#ffddbcee</color>
+    <color name="purple4">#ffd6adeb</color>
+    <color name="purple5">#ffcf9fe7</color>
+    <color name="purple6">#ffcb97e5</color>
+    <color name="purple7">#ffc58be2</color>
+    <color name="purple8">#ffc182e0</color>
+    <color name="purple9">#ffba75dc</color>
+    <color name="purple10">#ffb368d9</color>
+    <color name="purple11">#ffac59d6</color>
+    <color name="purple12">#ffa750d3</color>
+    <color name="purple13">#ffa041d0</color>
+    <color name="purple14">#ff9933cc</color>
+    
+    <color name="green1">#fff0f8db</color>
+    <color name="green2">#ffe2f0b6</color>
+    <color name="green3">#ffd3e992</color>
+    <color name="green4">#ffc5e26d</color>
+    <color name="green5">#ffb6db49</color>
+    <color name="green6">#ffa8d324</color>
+    <color name="green7">#ff99cc00</color>
+    <color name="green8">#ff92c500</color>
+    <color name="green9">#ff8abd00</color>
+    <color name="green10">#ff83b600</color>
+    <color name="green11">#ff7caf00</color>
+    <color name="green12">#ff75a800</color>
+    <color name="green13">#ff6da000</color>
+    <color name="green14">#ff669900</color>
+    
+    <color name="yellow1">#fffff6df</color>
+    <color name="yellow2">#ffffecc0</color>
+    <color name="yellow3">#ffffa3a0</color>
+    <color name="yellow4">#ffffd980</color>
+    <color name="yellow5">#ffffd060</color>
+    <color name="yellow6">#ffffc641</color>
+    <color name="yellow7">#ffffbd21</color>
+    <color name="yellow8">#ffffb61c</color>
+    <color name="yellow9">#ffffae18</color>
+    <color name="yellow10">#ffffa713</color>
+    <color name="yellow11">#ffffa00e</color>
+    <color name="yellow12">#ffff9909</color>
+    <color name="yellow13">#ffff9105</color>
+    <color name="yellow14">#ffff8a00</color>
+    
+    <color name="red1">#ffffe4e4</color>
+    <color name="red2">#ffffcaca</color>
+    <color name="red3">#ffffafaf</color>
+    <color name="red4">#ffff9494</color>
+    <color name="red5">#ffff7979</color>
+    <color name="red6">#ffff5f5f</color>
+    <color name="red7">#ffff4444</color>
+    <color name="red8">#fff83a3a</color>
+    <color name="red9">#fff03131</color>
+    <color name="red10">#ffe92727</color>
+    <color name="red11">#ffe21d1d</color>
+    <color name="red12">#ffdb1313</color>
+    <color name="red13">#ffd30a0a</color>
+    <color name="red14">#ffcc0000</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.csq.thesceneryalong.ui.views.TrackCtrlView
+        android:id="@+id/vTrackCtrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <fragment
+        android:id="@+id/fmMap"
+        android:name="com.csq.thesceneryalong.ui.fragments.base.BaseMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/vTrackCtrl" />
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        android:id="@+id/hProgressBar"
+        style="@style/PocketProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#aa000000"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <com.csq.thesceneryalong.ui.widgets.MultiDirectionSlidingDrawer
+        android:id="@+id/lyDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:handle="@+id/bottom_handle"
+        app:content="@+id/lyContent"
+        app:direction="bottomToTop"
+        app:handleGravity="center" >
+        
+        <ImageView
+            android:id="@id/bottom_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_map_drawer_up"
+            android:clickable="true" />
+
+        <FrameLayout 
+            android:id="@+id/lyContent"
+            android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+            >
+            <com.csq.thesceneryalong.ui.views.TrackDetailDrawerView
+	            android:id="@+id/vDetailDrawer"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:clickable="true" />
+        </FrameLayout>
+
+    </com.csq.thesceneryalong.ui.widgets.MultiDirectionSlidingDrawer>
+    
+    <View 
+        android:id="@+id/vGetScenery"
+        android:layout_width="160dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+    
+    <TextView
+        android:id="@+id/tvMyLocMode"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_mylocation_type"
+        android:textSize="15dp"
+        android:textColor="@color/yellow6"
+        android:text="@string/locationModeLocate" />
+    
+    <com.nhaarman.supertooltips.ToolTipRelativeLayout
+        android:id="@+id/lyTooltipframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

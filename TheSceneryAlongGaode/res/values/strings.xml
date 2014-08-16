@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 一个英文&#160;&#160; -->
+
+    <string name="app_name">路上的风景</string>
+    
+    <string name="recording_service">路上的风景轨迹及风景记录服务</string>
+    
+    <string name="start_recording">开始记录</string>
+    <string name="recording">正在记录...</string>
+    
+    <string name="strKm">千米</string>
+    <string name="strM">米</string>
+    
+    <string name="strHour">小时</string>
+    <string name="strMinute">分钟</string>
+    <string name="strSecond">秒</string>
+    
+    <string name="strRecording">正在记录...</string>
+    
+    <string name="gps_switch">开启或关闭gps</string>
+    
+    <string name="take_picture">拍照</string>
+    <string name="take_video">录影</string>
+    
+    <string name="strTrackHaveNoPoints">尚未获取到位置</string>
+    
+    <string name="no_camera_intent">未找到相机应用</string>
+    <string name="no_tracks">未找到轨迹记录，您可以“导入轨迹”或开启一段新的记录</string>
+    
+    <string name="strSavingAScenery">正在保存风景</string>
+    <string name="strSavingAScenerySuccess">保存成功</string>
+    <string name="strSavingASceneryFail">保存失败</string>
+
+    <string name="feedback">意见反馈</string>
+    <string name="feedbackTitle">"路上的风景"{a}安卓意见反馈</string>
+    <string name="feedbackMsg">（非常感谢您提供宝贵的意见！）</string>
+    
+    <string name="help">帮助</string>
+    <string name="aboutApp">关于</string>
+    <string name="integalWallNor">应用推荐</string>
+    
+    <string name="drawer_open">打开菜单</string>
+    <string name="drawer_close">关闭菜单</string>
+    
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="importTrack">导入轨迹</string>
+    <string name="exportTrack">导出轨迹</string>
+    <string name="share">分享</string>
+    <string name="mapLayer">地图图层</string>
+    
+    <string name="mapLayerMap">地图</string>
+    <string name="mapLayerSatellite">卫星</string>
+    <string name="mapLayerNight">夜间</string>
+    <string name="mapLayerSatelliteWithStreets">带街景的卫星地图</string>
+    <string name="mapLayerTerrain">地形</string>
+    
+    <string name="name">名称</string>
+    <string name="description">描述</string>
+    <string name="descriptionColon">描述：</string>
+    
+    <string name="addressColon">地址：</string>
+    
+    <string name="strEditTrack">编辑轨迹</string>
+    <string name="save">保存</string>
+    
+    <string name="name_is_empty">请输入名称</string>
+    
+    <string name="strExportATrackStart">正在导出轨迹</string>
+    <string name="strExportATrackSuccess">轨迹导出成功</string>
+    <string name="strExportATrackFailed">轨迹导出失败</string>
+    
+    <string name="deleteTrack">删除轨迹</string>
+    <string name="deleteTrackWarn">此操作将删除所有轨迹信息及风景文件，删除前是否先导出备份轨迹？</string>
+    <string name="deleteTrackExport">是，先导出再删除</string>
+    <string name="deleteTrackUnExport">否，直接删除</string>
+    
+    <string name="strNoImportTsaFile">未找到.tsa文件，请将需要导入的.tsa文件放入{a}目录下</string>
+    <string name="strImportTsaFileStart">搜索到{a}条轨迹，导入中...</string>
+    <string name="strImportTsaFile">轨迹导入失败</string>
+    <string name="strImportTsaSuccess">轨迹“{a}”导入成功</string>
+    
+    <string name="strTrackCtrlDefaultLeft" >&#060;—— 开始记录&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="strTrackCtrlDefaultRight">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;停止记录 ——&#062;</string>
+    
+    <string name="strTrackCtrlTotalTime">总耗时：</string>
+    <string name="strTrackCtrlTotalDis">总里程：</string>
+    
+    <string name="strTrackStopedAndDelete">无效轨迹，未保存（轨迹总里程小于100米且未记录任何风景）</string>
+    
+    <string name="strTrackStopConfirmTitle">停止轨迹</string>
+    <string name="strTrackStopConfirmMsg">是否停止轨迹？</string>
+    
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    
+    <string name="strNone">无</string>
+    
+    <string name="help1">1、如何导出导入轨迹？</string>
+    <string name="help11">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;在轨迹详情界面，您可以通过“导出轨迹”菜单，将当前轨迹导出到{a}目录下（以.tsa格式保存）。如果您想重新导入轨迹，或导入到其他手机，只需要将.tsa文件复制到{b}目录下，然后通过主界面侧边菜单项“导入轨迹”导入import目录下的轨迹。</string>
+    
+    <string name="about1">1、关于程序异常</string>
+    <string name="about11">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;此软件是作者一个人设计切图并开发，由于水平和时间有限，以及测试机型有限，难免会有一些bug，请您包容下，如果您能反馈一些bug（可以通过“意见反馈”或者直接发邮件给我），我将不胜感激！并尽快修复这些问题。</string>
+    
+    <string name="about3">2、关于作者</string>
+    <string name="about31">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;android程序员，渴望做出实用、简单而不简单的移动互联网产品。作者邮件：csqapp@163.com。</string>
+    
+    <string name="about4">3、当前版本</string>
+    <string name="about41pre">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    
+    <string name="strShareChooseTitle">分享应用</string>
+    <string name="strShareContent">一个应用，一部手机，永远留住路上的风景。\n旅途中，用手机拍摄的风景杂乱无章？分不清是在哪拍摄的风景？分不清风景的先后顺序？或者不能将大量的风景分段有序地整理出来？\n路上的风景，记录您旅途中每一个风景的位置、时间、描述等信息，并通过记录轨迹的方式将每个风景串联起来，清晰地展现在地图上，方便您编辑、备份、回忆以及展示分享给好友。\n“路上的风景”，简单实用的android应用，推荐给您：http://android.myapp.com/myapp/detail.htm?apkName=com.csq.thesceneryalong （如果链接无法访问，可以其他应用市场搜索“路上的风景”进行下载）</string>
+    
+    <string name="strErrorNoSdcard">未检测到sdcard，请先插入sdcard</string>
+    <string name="strErrorDbInitedFailed">数据库初始化失败</string>
+    <string name="strErrorNoGsf">请先安装谷歌服务框架（Google Service Framwork）</string>
+    
+    <string name="dialog_title_gps_not_open_title">Gps未开启</string>
+    <string name="dialog_title_gps_not_open_msg">是否开启gps？</string>
+    
+    <string name="deleteScenery">删除风景</string>
+    <string name="deleteSceneryWarn">是否删除此风景？</string>
+    <string name="strEditScenery">编辑风景</string>
+    
+    
+    <string name="strHelpTipStartRecord">开始记录轨迹，然后记录旅途的风景</string>
+    <string name="strHelpTipPauseRecord">暂停轨迹记录</string>
+    <string name="strHelpTipStopRecord">停止轨迹记录</string>
+    <string name="strHelpTipGetScenery">通过菜单可以添加风景（照片或视频）到轨迹</string>
+    
+    <string name="strTrackDetailName">名&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;称：</string>
+    <string name="strTrackDetailPath">目&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录：</string>
+    <string name="strTrackDetailDescription">描&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;述：</string>
+    <string name="strTrackDetailMovingTime">记录时间：</string>
+    <string name="strTrackDetailMovingDistance">记录距离：</string>
+    <string name="strTrackDetailSceneryNum">风&#160;&#160;景&#160;&#160;数：</string>
+    <string name="strTrackDetailPointNum">轨迹点数：</string>
+    
+    <string name="offlineMap">离线地图</string>
+    <string name="offlineAllCity">全国城市</string>
+    <string name="offlineDownManager">下载管理</string>
+    
+    <string name="locationModeLocate">定位</string>
+    <string name="locationModeFollow">追随</string>
+    <string name="locationModeRotate">旋转</string>
+    
+</resources>

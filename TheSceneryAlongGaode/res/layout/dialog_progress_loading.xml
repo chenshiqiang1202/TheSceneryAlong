@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csq.thesceneryalong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <de.passsy.holocircularprogressbar.HoloCircularProgressBar
+            android:id="@+id/holoCircularProgressBar"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            app:marker_visible="true"
+            app:progress="0"
+            app:progress_background_color="@color/red5"
+            app:progress_color="#ff00ff00"
+            app:stroke_width="4dp" />
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="0 %"
+            android:textColor="#ff00ff00"
+            android:textSize="@dimen/ts_comm22" />
+
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/holoCircularProgressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="正在加载"
+            android:textColor="#ff00ff00"
+            android:textSize="@dimen/ts_comm21" />
+    </RelativeLayout>
+
+</RelativeLayout>

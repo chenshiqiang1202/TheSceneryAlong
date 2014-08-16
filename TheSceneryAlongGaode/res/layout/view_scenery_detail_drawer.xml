@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green1"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+            android:id="@+id/lyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:id="@+id/tvDescriptionL"
+                style="@style/tv_track_detail_left"
+                android:text="@string/descriptionColon"
+                />
+        <TextView
+                android:id="@+id/tvDescription"
+                android:layout_toRightOf="@+id/tvDescriptionL"
+                style="@style/tv_track_detail_right"
+                android:text=""
+                />
+    </RelativeLayout>
+
+    <View style="@style/GapLine"/>
+
+    <RelativeLayout
+            android:id="@+id/lyAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:id="@+id/tvAddressL"
+                style="@style/tv_track_detail_left"
+                android:text="@string/addressColon"
+                />
+        <TextView
+                android:id="@+id/tvAddress"
+                android:layout_toRightOf="@+id/tvAddressL"
+                style="@style/tv_track_detail_right"
+                android:text=""
+                />
+    </RelativeLayout>
+    
+    <fragment
+        android:id="@+id/fmMap"
+        android:name="com.csq.thesceneryalong.ui.fragments.base.BaseMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+         />
+    
+</LinearLayout>

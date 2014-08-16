@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+    <TextView
+        android:id="@+id/tvImportTracks"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_h_comm12"
+        android:background="@drawable/bg_list_white_blue"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/padding_comm13"
+        android:paddingBottom="@dimen/padding_comm13"
+        android:paddingLeft="@dimen/padding_comm22"
+        android:paddingRight="@dimen/padding_comm22"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_comm21"
+        android:text="@string/importTrack"
+        />
+    
+    <View style="@style/GapLine"/>
+    
+    <TextView
+        android:id="@+id/tvOfflineMap"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_h_comm12"
+        android:background="@drawable/bg_list_white_blue"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/padding_comm13"
+        android:paddingBottom="@dimen/padding_comm13"
+        android:paddingLeft="@dimen/padding_comm22"
+        android:paddingRight="@dimen/padding_comm22"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_comm21"
+        android:text="@string/offlineMap"
+        />
+    
+    <View style="@style/GapLine"/>
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_h_comm12"
+        android:background="@drawable/bg_list_white_blue"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/padding_comm13"
+        android:paddingBottom="@dimen/padding_comm13"
+        android:paddingLeft="@dimen/padding_comm22"
+        android:paddingRight="@dimen/padding_comm22"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_comm21"
+        android:text="@string/feedback"
+        />
+    
+    <View style="@style/GapLine"/>
+    
+    <TextView
+        android:id="@+id/tvShare"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_h_comm12"
+        android:background="@drawable/bg_list_white_blue"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/padding_comm13"
+        android:paddingBottom="@dimen/padding_comm13"
+        android:paddingLeft="@dimen/padding_comm22"
+        android:paddingRight="@dimen/padding_comm22"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_comm21"
+        android:text="@string/share"
+        />"
+        
+    <View style="@style/GapLine"/>
+    
+    <TextView
+        android:id="@+id/tvHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_h_comm12"
+        android:background="@drawable/bg_list_white_blue"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/padding_comm13"
+        android:paddingBottom="@dimen/padding_comm13"
+        android:paddingLeft="@dimen/padding_comm22"
+        android:paddingRight="@dimen/padding_comm22"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_comm21"
+        android:text="@string/help"
+        />"
+        
+    <View style="@style/GapLine"/>
+    
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_h_comm12"
+        android:background="@drawable/bg_list_white_blue"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/padding_comm13"
+        android:paddingBottom="@dimen/padding_comm13"
+        android:paddingLeft="@dimen/padding_comm22"
+        android:paddingRight="@dimen/padding_comm22"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ts_comm21"
+        android:text="@string/aboutApp"
+        />"
+
+</merge>

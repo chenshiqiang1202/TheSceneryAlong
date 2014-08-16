@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <declare-styleable name="SmoothProgressBar">
+        <attr name="spbStyle" format="reference"/>
+        <attr name="spb_color" format="color"/>
+        <attr name="spb_stroke_width" format="dimension"/>
+        <attr name="spb_stroke_separator_length" format="dimension"/>
+        <attr name="spb_sections_count" format="integer"/>
+        <attr name="spb_speed" format="float"/>
+        <attr name="spb_progressiveStart_speed" format="float"/>
+        <attr name="spb_progressiveStop_speed" format="float"/>
+        <attr name="spb_interpolator" format="enum">
+            <enum name="spb_interpolator_accelerate" value="0"/>
+            <enum name="spb_interpolator_linear" value="1"/>
+            <enum name="spb_interpolator_acceleratedecelerate" value="2"/>
+            <enum name="spb_interpolator_decelerate" value="3"/>
+        </attr>
+        <attr name="spb_reversed" format="boolean"/>
+        <attr name="spb_mirror_mode" format="boolean"/>
+        <attr name="spb_colors" format="reference"/>
+        <attr name="spb_progressiveStart_activated" format="boolean"/>
+        <attr name="spb_background" format="reference"/>
+        <attr name="spb_generate_background_with_colors" format="boolean"/>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="CircleButton">
+        <attr name="cb_color" format="color" />
+        <attr name="cb_pressed_ring_width" format="dimension" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="FoldingMenu">
+        <attr name="foldNumber" format="integer" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="HoloCircularProgressBar">
+        <attr name="stroke_width" format="dimension" />
+        <attr name="progress" format="float"></attr>
+        <attr name="marker_progress" format="float"></attr>
+        <attr name="progress_color" format="color"></attr>
+        <attr name="progress_background_color" format="color"></attr>
+        <attr name="thumb_visible" format="boolean"></attr>
+        <attr name="marker_visible" format="boolean"></attr>
+        <attr name="android:gravity"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="Theme">
+        <attr name="circularProgressBarStyle" format="reference"></attr>        
+    </declare-styleable>
+
+
+
+    <declare-styleable name="StickyListHeadersListView">
+        <!-- View attributes -->
+        <attr name="android:clipToPadding" />
+        <attr name="android:scrollbars" />
+        <attr name="android:overScrollMode" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+
+        <!-- ListView attributes -->
+        <attr name="android:fadingEdgeLength" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:choiceMode" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:fastScrollEnabled" />
+        <attr name="android:fastScrollAlwaysVisible" />
+        <attr name="android:listSelector" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:scrollbarStyle" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:transcriptMode" />
+
+        <!-- StickyListHeaders attributes -->
+        <attr name="hasStickyHeaders" format="boolean" />
+        <attr name="isDrawingListUnderStickyHeader" format="boolean" />
+    </declare-styleable>
+    
+</resources>

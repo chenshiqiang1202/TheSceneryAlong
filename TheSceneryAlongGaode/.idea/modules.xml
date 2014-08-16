@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../LibAppcompat_v7/LibAppcompat_v7.iml" filepath="$PROJECT_DIR$/../LibAppcompat_v7/LibAppcompat_v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheSceneryAlong.iml" filepath="$PROJECT_DIR$/TheSceneryAlong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CsqCommonLib/TsaCommonLib.iml" filepath="$PROJECT_DIR$/../CsqCommonLib/TsaCommonLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lib_map_gaode/lib_map_gaode.iml" filepath="$PROJECT_DIR$/../lib_map_gaode/lib_map_gaode.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Minimum fling velocity for drawers (dp/second)-->
+    <integer name="drawer_min_fling_velocity">200</integer>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:abc="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/options_item_pic"
+        android:icon="@drawable/abc_ic_pic"
+        android:title="@string/take_picture"
+        abc:showAsAction="always"
+        />
+    
+    <item
+        android:id="@+id/options_item_video"
+        android:icon="@drawable/abc_ic_video"
+        android:title="@string/take_video"
+        abc:showAsAction="always"
+        />
+    
+    <item
+        android:id="@+id/options_item_map_type"
+        abc:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/menu_map_layer"
+        android:title="@string/mapLayer">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/menu_map_type_map"
+                    android:title="@string/mapLayerMap"/>
+                <item
+                    android:id="@+id/menu_map_type_satellite"
+                    android:title="@string/mapLayerSatellite"/>
+                <item
+                    android:id="@+id/menu_map_type_night"
+                    android:title="@string/mapLayerNight"/>
+            </group>
+        </menu>
+    </item>
+    
+</menu>

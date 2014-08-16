@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:abc="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/options_item_edit"
+        android:icon="@drawable/menu_edit"
+        android:title="@string/edit"
+        abc:showAsAction="ifRoom|collapseActionView"
+        />
+    
+    <item
+        android:id="@+id/options_item_delete"
+        android:icon="@drawable/menu_delete"
+        android:title="@string/delete"
+        abc:showAsAction="ifRoom|collapseActionView"
+        />
+    
+    <item
+        android:id="@+id/options_item_map_type"
+        abc:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/menu_map_layer"
+        android:title="@string/mapLayer">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/menu_map_type_map"
+                    android:title="@string/mapLayerMap"/>
+                <item
+                    android:id="@+id/menu_map_type_satellite"
+                    android:title="@string/mapLayerSatellite"/>
+                <item
+                    android:id="@+id/menu_map_type_night"
+                    android:title="@string/mapLayerNight"/>
+            </group>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/options_item_export"
+        android:icon="@drawable/menu_export"
+        android:title="@string/exportTrack"
+        abc:showAsAction="ifRoom|collapseActionView"
+        />
+    
+    <!-- <item
+        android:id="@+id/options_item_share"
+        android:icon="@drawable/menu_share"
+        android:title="@string/share"
+        abc:showAsAction="ifRoom|collapseActionView"
+        /> -->
+    
+</menu>

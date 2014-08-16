@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_comm21" >
+
+    <TextView
+        android:id="@+id/btnDown"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="@drawable/bg_list_white_blue"
+        android:textSize="14dp"
+        android:text="下载完成" />
+    
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/btnDown"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="16dp"
+        android:textColor="@color/blue14"
+        android:text="名称" />
+    
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_toLeftOf="@+id/btnDown"
+        android:layout_below="@+id/tvName"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="12dp"
+        android:textColor="@color/holo_yellow_dark"
+        android:text="大小" />
+
+</RelativeLayout>

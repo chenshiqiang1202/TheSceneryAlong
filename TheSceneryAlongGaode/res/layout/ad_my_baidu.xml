@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:baiduadsdk="http://schemas.android.com/apk/res/com.csq.thesceneryalong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!--注： baiduadsdk:adId可以指定为"",表示默认广告位-->
+    <com.baidu.mobads.AdView 
+        android:id="@+id/adView"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		baiduadsdk:adSize="0"
+		baiduadsdk:adId = ""  />
+
+</merge>

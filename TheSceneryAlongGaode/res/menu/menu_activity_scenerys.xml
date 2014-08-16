@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:abc="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/options_item_edit"
+        android:icon="@drawable/menu_edit"
+        android:title="@string/edit"
+        abc:showAsAction="ifRoom|collapseActionView"
+        />
+    
+    <item
+        android:id="@+id/options_item_delete"
+        android:icon="@drawable/menu_delete"
+        android:title="@string/delete"
+        abc:showAsAction="ifRoom|collapseActionView"
+        />
+    
+</menu>

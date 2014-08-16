@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff111111"
+     >
+    
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/vpMedie"
+	    android:layout_width="match_parent"
+   		android:layout_height="match_parent"
+	    >
+	</android.support.v4.view.ViewPager>
+	
+	<TextView
+	    android:id="@+id/tvIndex"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="@dimen/padding_comm12"
+	    android:layout_centerHorizontal="true"
+	    android:textColor="@color/red8"
+	    android:text="" />
+	
+	<com.csq.thesceneryalong.ui.widgets.MultiDirectionSlidingDrawer
+        android:id="@+id/lyDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:handle="@+id/bottom_handle"
+        app:content="@+id/lyContent"
+        app:direction="bottomToTop"
+        app:handleGravity="center" >
+        
+        <ImageView
+            android:id="@id/bottom_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_map_drawer_up"
+            android:clickable="true" />
+
+        <FrameLayout 
+            android:id="@+id/lyContent"
+            android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+            >
+            <com.csq.thesceneryalong.ui.views.SceneryDetailDrawerView
+	            android:id="@+id/vDetailDrawer"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:clickable="true" />
+        </FrameLayout>
+
+    </com.csq.thesceneryalong.ui.widgets.MultiDirectionSlidingDrawer>
+	
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csq.thesceneryalong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+    android:paddingLeft="@dimen/padding_comm22"
+    android:paddingRight="@dimen/padding_comm22"
+    >
+    
+    <at.markushi.ui.CircleButton 
+        android:id="@+id/btnStart"
+        android:layout_width="@dimen/btn_h_comm13"
+    	android:layout_height="@dimen/btn_h_comm13"
+    	android:layout_alignParentLeft="true"
+    	app:cb_color="@color/green10"
+    	app:cb_pressed_ring_width="@dimen/padding_comm21"
+    	android:padding="@dimen/padding_comm31"
+    	android:src="@drawable/ic_track_start"
+    	android:scaleType="centerInside"
+        />
+    
+    <at.markushi.ui.CircleButton 
+        android:id="@+id/btnStop"
+        android:layout_width="@dimen/btn_h_comm13"
+    	android:layout_height="@dimen/btn_h_comm13"
+    	android:layout_alignParentRight="true"
+    	app:cb_color="@color/red10"
+    	app:cb_pressed_ring_width="@dimen/padding_comm21"
+    	android:padding="@dimen/padding_comm31"
+    	android:src="@drawable/ic_track_stop"
+    	android:scaleType="centerInside"
+        />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <TextView
+	        android:id="@+id/tvMid1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/yellow1"
+	        android:textSize="@dimen/ts_comm21"
+	        android:text="@string/strTrackCtrlDefaultLeft" />
+        <TextView
+	        android:id="@+id/tvMid2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/yellow1"
+	        android:textSize="@dimen/ts_comm21"
+	        android:text="@string/strTrackCtrlDefaultRight" />
+    </LinearLayout>
+
+</RelativeLayout>

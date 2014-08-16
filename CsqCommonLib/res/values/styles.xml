@@ -1,0 +1,43 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="CircularProgressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item name="progress" format="float">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">@android:color/background_light</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style>
+    
+    <style name="CircularProgressBarLight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item name="progress" format="float">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">@android:color/darker_gray</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style>
+
+</resources>

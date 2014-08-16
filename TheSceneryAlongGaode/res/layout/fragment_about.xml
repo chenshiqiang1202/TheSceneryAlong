@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green1"
+     >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="@dimen/padding_comm22"
+    	android:orientation="vertical"
+	    >
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/blue14"
+    		android:textSize="@dimen/ts_comm22"
+    		android:text="@string/about1"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/black"
+    		android:textSize="@dimen/ts_comm21"
+    		android:text="@string/about11"
+	        />
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/blue14"
+    		android:textSize="@dimen/ts_comm22"
+    		android:text="@string/about3"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/black"
+    		android:textSize="@dimen/ts_comm21"
+    		android:text="@string/about31"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/blue14"
+    		android:textSize="@dimen/ts_comm22"
+    		android:text="@string/about4"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/tvVersion"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/black"
+    		android:textSize="@dimen/ts_comm21"
+	        />
+	    
+	    <View 
+	        android:id="@+id/vAbout"
+	        android:layout_width="match_parent"
+    		android:layout_height="40dp"
+    		android:background="#00000000"
+	        />
+	    
+	</LinearLayout>
+	
+</ScrollView>

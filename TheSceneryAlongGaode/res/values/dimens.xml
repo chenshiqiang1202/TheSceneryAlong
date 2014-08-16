@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- 常规间距 -->
+    <dimen name="padding_comm11">1dp</dimen>
+    <dimen name="padding_comm12">3dp</dimen>
+    <dimen name="padding_comm13">5dp</dimen>
+    
+    <dimen name="padding_comm21">7dp</dimen>
+    <dimen name="padding_comm22">9dp</dimen>
+    <dimen name="padding_comm23">12dp</dimen>
+    
+    <dimen name="padding_comm31">15dp</dimen>
+    <dimen name="padding_comm32">18dp</dimen>
+    <dimen name="padding_comm33">21dp</dimen>
+
+    <!-- 常规文字大小 -->
+    <dimen name="ts_comm11">8dp</dimen>
+    <dimen name="ts_comm12">10dp</dimen>
+    <dimen name="ts_comm13">12dp</dimen>
+    
+    <dimen name="ts_comm21">14dp</dimen>
+    <dimen name="ts_comm22">16dp</dimen>
+    <dimen name="ts_comm23">18dp</dimen>
+    
+    <dimen name="ts_comm31">20dp</dimen>
+    <dimen name="ts_comm32">22dp</dimen>
+    <dimen name="ts_comm33">25dp</dimen>
+    
+    <!-- 列表高度 -->
+    <dimen name="list_h_comm11">40dp</dimen>
+    <dimen name="list_h_comm12">50dp</dimen>
+    <dimen name="list_h_comm13">60dp</dimen>
+    
+    <dimen name="list_h_comm21">70dp</dimen>
+    <dimen name="list_h_comm22">80dp</dimen>
+    <dimen name="list_h_comm23">90dp</dimen>
+    
+    <dimen name="list_h_comm31">100dp</dimen>
+    <dimen name="list_h_comm32">110dp</dimen>
+    <dimen name="list_h_comm33">120dp</dimen>
+    
+    <!-- 按钮高度 -->
+    <dimen name="btn_h_comm11">36dp</dimen>
+    <dimen name="btn_h_comm12">43dp</dimen>
+    <dimen name="btn_h_comm13">50dp</dimen>
+    
+    <dimen name="btn_h_comm21">56dp</dimen>
+    <dimen name="btn_h_comm22">62dp</dimen>
+    <dimen name="btn_h_comm23">65dp</dimen>
+    
+    <dimen name="btn_h_comm31">70dp</dimen>
+    <dimen name="btn_h_comm32">74dp</dimen>
+    <dimen name="btn_h_comm33">78dp</dimen>
+    
+    
+    <!-- 按钮宽度 -->
+    <dimen name="btn_w_comm11">48dp</dimen>
+    <dimen name="btn_w_comm12">80dp</dimen>
+    <dimen name="btn_w_comm13">110dp</dimen>
+    
+    <dimen name="btn_w_comm21">140dp</dimen>
+    <dimen name="btn_w_comm22">170dp</dimen>
+    <dimen name="btn_w_comm23">205dp</dimen>
+    
+    <dimen name="btn_w_comm31">240dp</dimen>
+    <dimen name="btn_w_comm32">270dp</dimen>
+    <dimen name="btn_w_comm33">300dp</dimen>
+    
+    <!-- 轨迹线的宽度 -->
+    <dimen name="path_width">5dp</dimen>
+    
+    <!-- 风景图片的大小 -->
+    <dimen name="scenery_icon_size">74dp</dimen>
+    
+</resources>
