@@ -23,8 +23,12 @@ google play应用详情：https://play.google.com/store/apps/details?id=com.csq.
 
 
 几个lib project说明：
+
 lib_map_gaode：移植的一个google地图的开源工具库；
+
 CsqCommonLib：一些用到的开源控件及工具集合；
+
 LibAppcompat_v7：google提供的ActionBar兼容包；
+
 TsaDaoGenerator：GreenDao数据库文件生成工程，作为java工程导入。
 
